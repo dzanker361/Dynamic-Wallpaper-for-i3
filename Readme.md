@@ -12,6 +12,7 @@ I don't know if this needs to be done, but I'd rather include it as well:
 xhost +local:
 
 My crontab -e looks like this (the script runs every minute, you can easily extend it as the script only uses 15 images):
+
 SHELL=/bin/bash
 PATH=/sbin:/bin:/usr/sbin:/usr/bin
 MAILTO=root
