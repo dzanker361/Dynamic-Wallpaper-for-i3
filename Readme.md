@@ -6,9 +6,7 @@ Then you create your own script (I've attached mine).
 You will need images for the script, I used the ones from Dynamic_Wallpaper here on github.
 
 This step took me the most time to set up correctly, adjust the path according to your system, mine looks like this:
-export XAUTHORITY=/tmp/xauth_IXeHSJ.Xauthority
-
-export XAUTHORITY=/path/to/.Xauthority
+export XAUTHORITY=/tmp/xauth_*.Xauthority
 
 I don't know if this needs to be done, but I'd rather include it as well:
 xhost +local:
