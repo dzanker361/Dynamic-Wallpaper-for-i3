@@ -16,7 +16,7 @@ My crontab -e looks like this (the script runs every minute, you can easily exte
 SHELL=/bin/bash
 PATH=/sbin:/bin:/usr/sbin:/usr/bin
 MAILTO=root
-* * * * * sudo -u dzanker /home/dzanker/Dokumenty/Wallpapers/Wallpaper_dyn.sh > /tmp/cronjob.log 2>&1
+* * * * * doas -u dzanker /home/dzanker/Dokumenty/Wallpapers/Wallpaper_dyn.sh > /tmp/cronjob.log 2>&1
 
 If it is correct you check them with crontab -l
 
